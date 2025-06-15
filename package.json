@@ -1,0 +1,22 @@
+{
+  "name": "kibana-tut",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@elastic/elasticsearch": "^9.0.2",
+    "axios": "^1.10.0",
+    "config": "^4.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "log-timestamp": "^0.3.0",
+    "nodemon": "^3.1.10"
+  }
+}
